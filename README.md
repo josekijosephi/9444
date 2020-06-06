@@ -8,7 +8,7 @@ This will simply chronicle what is learnt about neural networks throughout COMP9
 To start with - everyones favourite - the iris data set is used to make a simple perceptron, with performance improved as new methods 
 are learned and implemented.
 
-## Random - but related - info
+## :help navigation
 
 ### simple_perceptron
 
