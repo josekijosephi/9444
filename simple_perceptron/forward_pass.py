@@ -1,5 +1,6 @@
 from numpy import argmax
 
+# I could have simply used numpy matrix multiplication
 def fp (Xin, weights):
     ''' Takes input to the transfer function
         Xin is the petal length and width,
@@ -17,10 +18,5 @@ def fp (Xin, weights):
             hot_one.append(1)
         else:
             hot_one.append(0)
-    #for entry in output:
-    #    if entry > 0:
-    #        hot_one.append(1)
-    #    else:
-    #        hot_one.append(0)
-    
+
     return output, hot_one
